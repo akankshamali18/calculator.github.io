@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: black;
+}
+input{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(86, 86, 86, 0.81);
+    color: white;
+    border: none;
+    width: 14vw;
+    outline: none;
+    border: 1px solid black;
+    letter-spacing: 5px;
+    text-align: end;
+    border-radius: 8px;
+}
+
+#ac{
+    width: 140px;
+    background-color: #303136;
+}
+#ac:hover{
+    background-color: #242528;
+}
+#add{
+    background-color: #1991ff;
+    color: white;
+}
+#sub{
+    background-color: #1991ff;
+    color: white;
+
+}
+#mul{
+    background-color: #1991ff;
+    color: white;
+
+}
+#division{
+    background-color: #1991ff;
+    color: white;
+
+}
+#c{
+    background-color: #303136;
+}
+#c:hover{
+    background-color: #242528;
+}
+#eq{
+    width: 130px;
+    background-color: #1991ff;
+    color: white;
+
+}
+#eq:hover{
+    background-color: #2184e1;
+}
+#sub:hover{
+    background-color: #2184e1;
+}
+#mul:hover{
+    background-color: #2184e1;
+}
+#division:hover{
+    background-color: #2184e1;
+}
+#add:hover{
+    background-color: #2184e1;
+}
+button{
+    padding: 25px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 13px;
+    background-color: #303136;
+    color: #1991ff;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(86, 86, 86, 0.51);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cal{
+    background-color: #121d26;
+    padding: 30px 0px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    padding:10px 40px;
+}
+.r1{
+    display: flex;
+    gap: 1vw;
+    margin: 20px;
+}
+.r2{
+    display: flex;
+    gap: 1vw;
+    margin: 20px;
+}
+.r3{
+    display: flex;
+    gap: 1vw;
+    margin: 20px;
+}
+.r4{
+    display: flex;
+    gap: 1vw;
+    margin: 20px;
+}
+.r5{
+    display: flex;
+    gap: 1vw;
+    margin: 0px 20px;
+}
